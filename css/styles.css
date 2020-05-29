@@ -2,14 +2,40 @@
 
 }
 
+.jumbotron {
+  height: 200px;
+  background-image: url("../assets/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: right;
+}
+
+/* .jumbotron img {
+  height: 100%;
+  z-index: -0.5;
+  float: left;
+} */
+
 .container h2 {
   text-align: center;
   margin: 2rem 0 2rem 0;
 }
 
+.avatar-right {
+  float: left;
+  height: 25rem;
+  margin-left: 20%;
+}
+
+.avatar-left {
+  float: right;
+  height: 25rem;
+  margin-right: 20%
+}
+
 #who-is {
   /* position: static; */
-  margin-left: 10%;
+  /* margin-left: 10%; */
   padding: 2rem;
   width: 40%;
   float: left;
@@ -20,7 +46,7 @@
 
 #what-do {
   /* position: relative; */
-  margin-right: 10%;
+  /* margin-right: 10%; */
   padding: 2rem;
   width: 40%;
   float: right;
@@ -40,7 +66,7 @@
 
 #contact-jeff {
   /* position: static; */
-  margin-left: 10%;
+  /* margin-left: 10%; */
   padding: 2rem;
   width: 40%;
   float: left;
