@@ -1,3 +1,18 @@
+
+@font-face {
+  font-family: "8-bit-wonder";
+  src: url("../fonts/8-bit-wonder.TTF") format("truetype");
+}
+
+body {
+  background-color: #C4D7DB;
+  color: #707070
+}
+
+h2 {
+  
+}
+
 .container {
 
 }
@@ -7,7 +22,13 @@
   background-image: url("../assets/background.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
   text-align: right;
+  font-family: "8-bit-wonder";
+  /* color: #707070;
+  color: gray; */
 }
 
 /* .jumbotron img {
@@ -39,9 +60,14 @@
   padding: 2rem;
   width: 40%;
   float: left;
-  border-top: solid 2px silver;
-  border-left: solid 2px silver;
+  border: solid 2px silver;
+  border-radius: 20rem;
+
   text-align: center;
+  /* border-top: solid 2px silver; */
+  /* border-left: solid 2px silver; */
+  /* background-color: #59BDFF; */
+  /* color: #9BBFFC; */
 }
 
 #what-do {
@@ -50,8 +76,9 @@
   padding: 2rem;
   width: 40%;
   float: right;
-  border-top: solid 2px silver;
-  border-right: solid 2px silver;
+  border: solid 2px silver;
+  border-radius: 20rem;
+  text-align: center;
   clear: both;
 }
 
@@ -71,8 +98,9 @@
   width: 40%;
   float: left;
   clear: both;
-  border-top: solid 2px silver;
-  border-left: solid 2px silver;
+  border: solid 2px silver;
+  border-radius: 20rem;
+  text-align: center;
   text-align: center;
 }
 
