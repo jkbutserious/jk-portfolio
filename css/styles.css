@@ -32,12 +32,6 @@ h2 {
   color: gray; */
 }
 
-/* .jumbotron img {
-  height: 100%;
-  z-index: -0.5;
-  float: left;
-} */
-
 .container h2 {
   text-align: center;
   font-family: "8-bit-wonder";
@@ -57,15 +51,14 @@ h2 {
 }
 
 #who-is {
-  /* position: static; */
-  /* margin-left: 10%; */
   padding: 2rem;
   width: 40%;
   float: left;
   border: solid 2px silver;
   border-radius: 20rem;
-
   text-align: center;
+
+  /* Alternate style for About Me panels */
   /* border-top: solid 2px silver; */
   /* border-left: solid 2px silver; */
   /* background-color: #59BDFF; */
@@ -73,8 +66,6 @@ h2 {
 }
 
 #what-do {
-  /* position: relative; */
-  /* margin-right: 10%; */
   padding: 2rem;
   width: 40%;
   float: right;
@@ -94,8 +85,6 @@ h2 {
 }
 
 #contact-jeff {
-  /* position: static; */
-  /* margin-left: 10%; */
   padding: 2rem;
   width: 40%;
   float: left;
@@ -124,7 +113,6 @@ h2 {
 }
 
 .background .panel {
-  /* height: 300px; */
   padding: 0 2rem 0 2rem;
   border: solid 2px silver;
   border-radius: 2rem;
@@ -136,8 +124,18 @@ h2 {
   padding: 0;
 }
 
+.jobs {
+  /* font-family: "8-bit-wonder"; */
+}
 
 .jobs img {
   width: auto;
   height: 20rem;
+}
+
+.interests .panel {
+  padding: 2rem;
+  border: solid 2px silver;
+  border-radius: 2rem;
+  text-align: center;
 }
