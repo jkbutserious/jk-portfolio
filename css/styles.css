@@ -5,22 +5,22 @@
 }
 
 body {
-  background-color: #C4D7DB;
-  color: #707070
+  background-color: #1F80C2;
+  color: #fff
 }
 
 h2 {
-  
+  color: #fff
 }
 
 .container {
-
+  color: #707070
 }
 
 .jumbotron {
   height: 200px;
   width: 100%;
-  background-image: url("../assets/background.png");
+  background-image: url("../assets/background-2.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
