@@ -1,8 +1,8 @@
-# _Jeff Kim Portfolio_
+# Jeff Kim Portfolio
 
 #### _HTML, CSS, Bootstrap Exercise for Epicodus, 05.29.2020_
 
-#### By _**Jeff Kim**_
+#### By **Jeff Kim**
 
 ## Description
 
