@@ -1,0 +1,64 @@
+.container {
+
+}
+
+.container h2 {
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
+
+#who-is {
+  /* position: static; */
+  margin-left: 10%;
+  padding: 2rem;
+  width: 40%;
+  float: left;
+  border-top: solid 2px silver;
+  border-left: solid 2px silver;
+  text-align: center;
+}
+
+#what-do {
+  /* position: relative; */
+  margin-right: 10%;
+  padding: 2rem;
+  width: 40%;
+  float: right;
+  border-top: solid 2px silver;
+  border-right: solid 2px silver;
+  clear: both;
+}
+
+#what-do ul {
+  list-style: none;
+  padding: 0;
+}
+
+#what-do .glyphicon {
+  margin: 3px;
+}
+
+#contact-jeff {
+  /* position: static; */
+  margin-left: 10%;
+  padding: 2rem;
+  width: 40%;
+  float: left;
+  clear: both;
+  border-top: solid 2px silver;
+  border-left: solid 2px silver;
+  text-align: center;
+}
+
+#contact-jeff ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact-jeff img {
+  width: 20px;
+}
+
+#contact-jeff .glyphicon {
+  margin: 3px;
+}
