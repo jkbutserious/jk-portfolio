@@ -19,6 +19,7 @@ h2 {
 
 .jumbotron {
   height: 200px;
+  width: 100%;
   background-image: url("../assets/background.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -39,6 +40,7 @@ h2 {
 
 .container h2 {
   text-align: center;
+  font-family: "8-bit-wonder";
   margin: 2rem 0 2rem 0;
 }
 
@@ -115,4 +117,27 @@ h2 {
 
 #contact-jeff .glyphicon {
   margin: 3px;
+}
+
+.background {
+  height: 400px;
+}
+
+.background .panel {
+  /* height: 300px; */
+  padding: 0 2rem 0 2rem;
+  border: solid 2px silver;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.background .panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.jobs img {
+  width: auto;
+  height: 20rem;
 }
